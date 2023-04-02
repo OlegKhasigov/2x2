@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+
+body{
+	background:powderblue;
+	/*background: url(back4.png);
+    /*background: linear-gradient(50deg, powderblue, pink);*/
+  
+}
+
+header{
+	padding: 0px 20px;
+}
+
+.container{
+	background: black;
+	height: calc(70px + (100 - 70) * ((100vw - 500px) / (1920 - 500)));
+	border-radius: 4px 4px 20px 20px;
+	
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 17px;
+}
+
+.nav_btns a{
+	margin-inline: calc(5px + (20 - 5) * ((100vw - 500px) / (1920 - 500)));
+}
+
+.nav_btns{
+	display: flex;
+	align-items: center;
+}
+
+.login_btn{
+	margin-right: 25px;
+}
+
+.container a:hover{
+	color: red;
+}
+
+.logo{
+	width: calc(140px + (160 - 140) * ((100vw - 500px) / (1920 - 500)));
+	height: auto;
+	border-radius: 20px;
+}
+
+.search div{
+	display: inline-block;
+	margin-inline: calc(15px + (30 - 15) * ((100vw - 500px) / (1920 - 500)));
+}
+
+/* SEARCH */
+form {
+  position: relative;
+  width: calc(150px + (200 - 150) * ((100vw - 500px) / (1920 - 500)));
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+}
+input, button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 100%;
+  height: 30px;
+  padding-left: 15px;
+}
+button {
+  height: 22px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*контент страницы*/
+
+.page_login{
+	display: flex;
+	justify-content: center;
+	margin: 50px 0px;
+}
+
+.login{
+	background: white;
+	border-radius: 10px;
+	width: 350px;
+	height: 400px;
+	
+	display: flex;
+	justify-content: center;
+	
+	padding: 20px 40px;
+}
+
+.login p{
+	display: flex;
+	justify-content: center;
+}
+
+.login ul{
+	margin-top: 200px;
+	justify-content: center;
+}
+
+.fields{
+	
+}
+
+.fields li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.login input{
+	border: 1px solid black;
+	border-radius: 8px;
+	height: 30px;
+	width: 200px;
+}
+
+
+.page{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0px;
+} 
+
+.content{
+	background: white;
+	border-radius: 15px; 
+	display: flex;
+	justify-content: center;
+	padding: 15px 20px;
+	box-shadow: 0px 6px 60px rgba(0, 0, 0, 0.7);
+}
+
+.signup p, input{
+	display: inline-block;
+}
+.signup{
+	background: white;
+	border-radius: 10px;
+	width: 320px;
+	height: 400px;	
+	
+}
+
+.signup ul{
+	box-shadow: 0px 6px 60px rgba(217, 229, 255, 0.7);
+	border-radius: 5px; 
+}
+
+.signup p{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 20px;
+	font-family:'Roboto', sans-serif;
+	color: #30507D;
+}
+
+.list{
+	margin-top: 30px;
+	list-style: none;
+}
+
+.field{
+	border-radius: 5px; 
+	border: 2px solid #E9F2FF;
+	margin-bottom:10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.field2{
+	border-radius: 5px; 
+	border: 2px solid #E9F2FF;
+	font-family: 'Roboto', sans-serif;	
+}
