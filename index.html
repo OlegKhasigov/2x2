@@ -17,8 +17,17 @@
     <title>NETFLIX</title>
 </head>
 <body>
-	<script type = "text/javascript">
-		prompt("Вы совершеннолетний", Введите возраст);
+	<script>
+		do{
+			str = prompt("Вы совершеннолетний?", "да / нет")
+		}while(str != "да");
+		
+		do{
+			str = prompt("Решите пример", "25 - 47 * 4 + 18 = ?")
+			x = parseInt(str)
+		}while(x != -181);
+		
+		alert("Добро пожаловать")			
 	</script>
 	
     <header>
