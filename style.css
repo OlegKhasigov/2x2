@@ -93,10 +93,7 @@ button {
 }
 
 /*контент страницы*/
-.page{
-	display: flex;
-	justify-content: center;
-}
+
 
 .heading{
 	display: flex;
